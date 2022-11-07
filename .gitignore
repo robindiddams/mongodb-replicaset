@@ -1,3 +1,3 @@
-simple-replset/rs1/db
-simple-replset/rs2/db
-simple-replset/rs3/db
+rs1/db
+rs2/db
+rs3/db

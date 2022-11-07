@@ -2,19 +2,9 @@
 
 Sample scripts to start MongoDB Replica Sets
 
-## What you are going to find here?
-
-There is a set of scripts inside project folders. They help you to bring replica set up and down. Each folder has a specific content detailed below
-
 ### Replica Set configuration
 
 Start a 3-node replica set and activate replication
-
-#### Enter in sample folder
-
-```bash
-cd $PATH_TO_PROJECT/01-simple-replset
-```
 
 #### First time starting cluster and replication
 
