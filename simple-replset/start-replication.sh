@@ -7,7 +7,7 @@ TIMEOUT=6
 COUNT=0
 
 # Checking if mongo is up
-while ! mongo --eval "var rs_cluster=$(cat ${scriptPath}/replication-cluster.json);" $scriptPath/start-replication.js; do 
+while ! mongosh --quiet $scriptPath/start-replication.js; do 
   ((COUNT++));
   sleep 1; 
   echo " ";
